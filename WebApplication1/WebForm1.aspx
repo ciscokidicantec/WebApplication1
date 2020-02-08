@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Estate Properties 08-02-2020</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,6 +16,8 @@
             <br />
             <br />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
         </div>
     </form>
 </body>
